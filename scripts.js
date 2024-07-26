@@ -9,12 +9,3 @@ function hideResumo(element) {
 function redirectToIntegrante(url) {
     window.location.href = url;
 }
-
-document.querySelector('.voltar').addEventListener('click', function() {
-    history.back();
-});
-
-// Lógica para avançar para a próxima página, se aplicável
-document.querySelector('.avancar').addEventListener('click', function() {
-    // Lógica para avançar para a próxima página
-});
